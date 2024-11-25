@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.container
+{
+    width: 30%;
+    margin: 0 auto;
+    padding: 36px;
+}
+
+.container
+.input
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container
+.top
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container
+.top
+label
+{
+    font-family: 'Karla',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 7px;
+}
+
+.container
+.top
+input
+{
+    height: 35px;
+    width: 222px;
+}
+
+.container
+button
+{
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(90deg,#672280 10%, #A626D3 100%);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16.5px;
+    font-weight: 700;
+    transition: ease-in 300ms;
+    margin-top: 10px;
+}
+
+.container
+button:hover{
+    border: 1px solid black;
+    background: white;
+    color: #000;  
+}
+
+.container
+img
+{
+    display: block;
+    margin: 2rem auto 0;
+    max-width: 100%;
+}
+
+.meme {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto; /* Ensure the height adjusts dynamically */
+    overflow: visible; /* Prevent cutting off content */
+  }
+  
+  .meme__image {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+  
+  .meme__text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+  }
+  
+  .top {
+    top: 30px;
+  }
+  
+  .bottom {
+    bottom: 0;
+  }
+  
