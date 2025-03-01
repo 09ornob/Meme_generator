@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "homepage":"https://09ornob.github.io/Meme_generator",
-=======
   "homepage": "https://09ornob.github.io/Meme_generator",
->>>>>>> c4e98b0 (Updated package.json and package-lock.json)
   "name": "meme_generator",
   "private": true,
   "version": "0.0.0",
